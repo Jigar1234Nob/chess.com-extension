@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Embedder",
+  "version": "1.0.0",
+  "description": "A Chess.com-focused new-tab dashboard with quick access to the full Chess.com experience.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "action": {
+    "default_title": "Open Chess.com",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "chess-com-embedder@jigar1234nob.github.io",
+      "strict_min_version": "109.0"
+    }
+  }
+}

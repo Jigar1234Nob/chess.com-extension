@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <title>Chess.com | New Tab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-page">
+  <header class="topbar">
+    <a class="wordmark" href="https://www.chess.com/" target="_blank" rel="noopener noreferrer"><span class="knight">♞</span> chess<span class="green">.com</span></a>
+    <span class="topbar-label">YOUR CHESS HUB</span>
+    <a class="top-link" href="https://www.chess.com/" target="_blank" rel="noopener noreferrer">Open full site ↗</a>
+  </header>
+
+  <main class="layout">
+    <section class="welcome">
+      <div class="welcome-copy">
+        <p class="eyebrow">A BETTER NEW TAB</p>
+        <h1>Make your next move.</h1>
+        <p class="muted">Your Chess.com launchpad, ready whenever you are.</p>
+        <div class="actions">
+          <a class="primary-button link-button" href="https://www.chess.com/play" target="_blank" rel="noopener noreferrer">Play chess <span aria-hidden="true">↗</span></a>
+          <a class="secondary-button link-button" href="https://www.chess.com/puzzles" target="_blank" rel="noopener noreferrer">Solve puzzles</a>
+        </div>
+      </div>
+      <div class="knight-art" aria-hidden="true">♞</div>
+    </section>
+
+    <section class="embed-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CHESS.COM</p>
+          <h2>Embedded view</h2>
+        </div>
+        <a class="small-link" href="https://www.chess.com/" target="_blank" rel="noopener noreferrer">Open in a tab ↗</a>
+      </div>
+      <div class="frame-shell">
+        <iframe
+          id="chessFrame"
+          title="Chess.com website"
+          src="https://www.chess.com/"
+          allow="clipboard-read; clipboard-write; fullscreen"
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+        <div class="frame-note">
+          <strong>Can't see Chess.com here?</strong>
+          <span>Chess.com may block third-party embedding. That restriction is controlled by the website, not this extension.</span>
+          <a href="https://www.chess.com/" target="_blank" rel="noopener noreferrer">Launch Chess.com in a full tab ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-links" aria-label="Quick links">
+      <a class="quick-card" href="https://www.chess.com/play" target="_blank" rel="noopener noreferrer"><span class="quick-icon">♟</span><span><strong>Play</strong><small>Start a game</small></span><span class="arrow">↗</span></a>
+      <a class="quick-card" href="https://www.chess.com/puzzles" target="_blank" rel="noopener noreferrer"><span class="quick-icon">♙</span><span><strong>Puzzles</strong><small>Train your tactics</small></span><span class="arrow">↗</span></a>
+      <a class="quick-card" href="https://www.chess.com/learn" target="_blank" rel="noopener noreferrer"><span class="quick-icon">♗</span><span><strong>Learn</strong><small>Improve your game</small></span><span class="arrow">↗</span></a>
+      <a class="quick-card" href="https://www.chess.com/analysis" target="_blank" rel="noopener noreferrer"><span class="quick-icon">♜</span><span><strong>Analysis</strong><small>Review positions</small></span><span class="arrow">↗</span></a>
+    </section>
+  </main>
+  <footer>Chess.com Embedder <span>·</span> An independent browser extension</footer>
+</body>
+</html>
